@@ -1,0 +1,12 @@
+import 'package:flame/game.dart';
+import 'package:flutter_bird/components/background.dart';
+import 'package:flutter_bird/components/bird.dart';
+import 'package:flutter_bird/components/ground.dart';
+
+class FlappyBirdGame extends FlameGame {
+  late Bird bird;
+  @override
+  Future<void> onLoad() async {
+    addAll([Background(), Ground(), bird = Bird()]);
+  }
+}
