@@ -3,6 +3,16 @@
 A new Flutter project.
 
 ## Flutter Flappy Bird with Flame Game Engine
+
+
+
+  <img src="https://pub.dev/packages/flame/versions/1.12.0/gen-res/gen/190x190/logo.webp" alt="Flame Logo">
+
+
+
+  # FLAME
+
+
 Overview
 This is a simple Flappy Bird game built using Flutter and the Flame game engine. The game provides a fun and challenging experience where the player controls a bird, navigating through pipes by tapping on the screen.
 
