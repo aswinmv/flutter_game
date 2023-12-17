@@ -2,15 +2,22 @@
 
 A new Flutter project.
 
-## Getting Started
+## Flutter Flappy Bird with Flame Game Engine
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  <img src="https://pub.dev/packages/flame/versions/1.12.0/gen-res/gen/190x190/logo.webp" alt="Flame Logo">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+  # FLAME
+
+
+Overview
+This is a simple Flappy Bird game built using Flutter and the Flame game engine. The game provides a fun and challenging experience where the player controls a bird, navigating through pipes by tapping on the screen.
+
+Features
+Flame Game Engine: The game utilizes the Flame game engine for smooth and efficient 2D game development in Flutter.
+Tap Controls: Control the bird by tapping on the screen to make it flap and navigate through pipes.
+Score Tracking: Keep track of your score as you successfully navigate through the pipes.
+Customizable: Easily customize game elements, such as bird appearance, pipe styles, and more.
