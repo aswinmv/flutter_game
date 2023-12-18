@@ -1,6 +1,7 @@
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bird/game/assets.dart';
 import 'package:flutter_bird/game/bird_movement.dart';
@@ -43,7 +44,9 @@ class Bird extends SpriteGroupComponent<BirdMoment>
     PositionComponent other,
   ) {
     super.onCollisionStart(intersectionPoints, other);
-    print("collision");
+    if (kDebugMode) {
+      print("collision");
+    }
   }
 
   @override

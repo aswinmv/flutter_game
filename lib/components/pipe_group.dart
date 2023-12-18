@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flame/components.dart';
-import 'package:flutter/foundation.dart';
+
 import 'package:flutter_bird/components/pipe.dart';
 import 'package:flutter_bird/game/config.dart';
 import 'package:flutter_bird/game/flappy_bird_game.dart';
