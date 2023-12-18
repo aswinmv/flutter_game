@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bird/components/bird.dart';
 import 'package:flutter_bird/game/assets.dart';
 import 'package:flutter_bird/game/flappy_bird_game.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class GameOver extends StatelessWidget {
   final FlappyBirdGame game;
@@ -17,7 +19,15 @@ class GameOver extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Spacer(),
+            const Spacer(),
+            Text("Score : ${game.bird.score}",
+                style: GoogleFonts.pressStart2p(
+                    fontSize: 25,
+                    fontWeight: FontWeight.w500,
+                    color: Colors.orange)),
+            const SizedBox(
+              height: 15,
+            ),
             Image.asset(Assets.gameOver),
             ElevatedButton(
                 onPressed: onRestart,
@@ -26,7 +36,7 @@ class GameOver extends StatelessWidget {
                   "Restart",
                   style: TextStyle(fontSize: 20, color: Colors.white),
                 )),
-            Spacer()
+            const Spacer()
           ]),
     );
   }
