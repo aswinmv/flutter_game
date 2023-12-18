@@ -69,5 +69,8 @@ class Bird extends SpriteGroupComponent<BirdMoment>
   void update(double dt) {
     super.update(dt);
     position.y += Config.birdVelocity * dt;
+    if (position.y < 1) {
+      gameOver();
+    }
   }
 }
