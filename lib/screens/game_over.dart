@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bird/components/bird.dart';
 import 'package:flutter_bird/game/assets.dart';
 import 'package:flutter_bird/game/flappy_bird_game.dart';
 import 'package:google_fonts/google_fonts.dart';
