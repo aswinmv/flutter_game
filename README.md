@@ -75,8 +75,7 @@ This project is a Flappy Bird clone built using Flutter for the UI and Flame as 
 - **Challenge Friends:** Compete with friends to achieve the highest score and share your success.
 
 ## Screenshots
-
-Include screenshots or GIFs showcasing the gameplay and key features of your Flappy Bird clone.
+![image](https://github.com/aswinmv/flutter_game/assets/65582177/b10bf541-011a-45be-8fd9-0f5b3a8d5b7b)
 
 ## Contributing
 
